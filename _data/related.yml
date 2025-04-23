@@ -1,0 +1,16 @@
+title: Related Repositories
+background: "rgb(240,240,240)"
+background-dark: "rgb(50,50,50)"
+text: "#000"
+text-dark: "#fff"
+links:
+  -
+      name: Theme Repository
+      url: "https://github.com/TensorWorks/jekyll-theme-dashboard"
+      icon: github-mark.svg
+      icon-dark: github-mark-white.svg
+  -
+      name: Demo Site Repository
+      url: "https://github.com/TensorWorks/jekyll-theme-dashboard-demo"
+      icon: github-mark.svg
+      icon-dark: github-mark-white.svg

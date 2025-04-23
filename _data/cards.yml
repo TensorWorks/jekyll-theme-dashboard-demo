@@ -1,0 +1,217 @@
+# Example of a group with an icon, a title and a background
+-
+  group: Example Group With Icon, Title and Background
+  icon: circle-black.svg
+  icon-dark: circle-white.svg
+  background: "#65dbf7"
+  background-dark: "#000082"
+  text: "#000"
+  text-dark: "#fff"
+  cards:
+    -
+      name: Icon Grid Example
+      type: icon-grid
+      icons:
+        -
+          name: GitHub
+          icon: github-mark.svg
+          icon-dark: github-mark-white.svg
+          url: https://github.com/
+        -
+          name: Jekyll
+          icon: jekyll.svg
+          icon-dark: jekyll-whitebg.svg
+          url: https://jekyllrb.com/
+    -
+      name: Link List Example
+      type: link-list
+      links:
+        -
+          name: GitHub
+          icon: github-mark.svg
+          icon-dark: github-mark-white.svg
+          url: https://github.com/
+          description: "This is a link to the GitHub homepage."
+          expanded: true
+        -
+          name: Jekyll
+          icon: jekyll.svg
+          icon-dark: jekyll-whitebg.svg
+          url: https://jekyllrb.com/
+          description: "This is a link to the Jekyll website."
+          expanded: true
+    -
+      name: Custom Card Example
+      type: custom
+      include: custom-card-test.html
+      body-class: my-custom-class
+
+# Example of a group with an icon and background but no title
+-
+  icon: circle-black.svg
+  icon-dark: circle-white.svg
+  background: "#65dbf7"
+  background-dark: "#000082"
+  text: "#000"
+  text-dark: "#fff"
+  cards:
+    -
+      name: Card in a Group with an Icon Only
+      type: icon-grid
+      icons:
+        -
+          name: GitHub
+          icon: github-mark.svg
+          icon-dark: github-mark-white.svg
+          url: https://github.com/
+        -
+          name: Jekyll
+          icon: jekyll.svg
+          icon-dark: jekyll-whitebg.svg
+          url: https://jekyllrb.com/
+    -
+      name: "Links With expanded: false"
+      type: link-list
+      links:
+        -
+          name: GitHub
+          icon: github-mark.svg
+          icon-dark: github-mark-white.svg
+          url: https://github.com/
+          description: "This is a link to the GitHub homepage."
+        -
+          name: Jekyll
+          icon: jekyll.svg
+          icon-dark: jekyll-whitebg.svg
+          url: https://jekyllrb.com/
+          description: "This is a link to the Jekyll website."
+    -
+      name: Another Custom Card
+      type: custom
+      include: custom-card-test.html
+      body-class: my-custom-class
+
+# Example of a group with a background but no icon or title
+-
+  background: "#65dbf7"
+  background-dark: "#000082"
+  text: "#000"
+  text-dark: "#fff"
+  cards:
+    -
+      name: Card in a Group with No Icon or Title
+      type: icon-grid
+      icons:
+        -
+          name: GitHub
+          icon: github-mark.svg
+          icon-dark: github-mark-white.svg
+          url: https://github.com/
+        -
+          name: Jekyll
+          icon: jekyll.svg
+          icon-dark: jekyll-whitebg.svg
+          url: https://jekyllrb.com/
+    -
+      name: "Links With expanded: false"
+      type: link-list
+      links:
+        -
+          name: GitHub
+          icon: github-mark.svg
+          icon-dark: github-mark-white.svg
+          url: https://github.com/
+          description: "This is a link to the GitHub homepage."
+        -
+          name: Jekyll
+          icon: jekyll.svg
+          icon-dark: jekyll-whitebg.svg
+          url: https://jekyllrb.com/
+          description: "This is a link to the Jekyll website."
+    -
+      name: Another Custom Card
+      type: custom
+      include: custom-card-test.html
+      body-class: my-custom-class
+
+# Example of a group with an icon and title, but no background
+-
+  group: Example Group With Icon and Title, But No Background
+  icon: circle-black.svg
+  icon-dark: circle-white.svg
+  cards:
+    -
+      name: Card in a Group with an Icon and Title, But No Background
+      type: icon-grid
+      icons:
+        -
+          name: GitHub
+          icon: github-mark.svg
+          icon-dark: github-mark-white.svg
+          url: https://github.com/
+        -
+          name: Jekyll
+          icon: jekyll.svg
+          icon-dark: jekyll-whitebg.svg
+          url: https://jekyllrb.com/
+    -
+      name: "Links With expanded: false"
+      type: link-list
+      links:
+        -
+          name: GitHub
+          icon: github-mark.svg
+          icon-dark: github-mark-white.svg
+          url: https://github.com/
+          description: "This is a link to the GitHub homepage."
+        -
+          name: Jekyll
+          icon: jekyll.svg
+          icon-dark: jekyll-whitebg.svg
+          url: https://jekyllrb.com/
+          description: "This is a link to the Jekyll website."
+    -
+      name: Another Custom Card
+      type: custom
+      include: custom-card-test.html
+      body-class: my-custom-class
+
+
+# Example of a group with no icon, title or background
+-
+  cards:
+    -
+      name: Card in a Group with No Icon, Title or Background
+      type: icon-grid
+      icons:
+        -
+          name: GitHub
+          icon: github-mark.svg
+          icon-dark: github-mark-white.svg
+          url: https://github.com/
+        -
+          name: Jekyll
+          icon: jekyll.svg
+          icon-dark: jekyll-whitebg.svg
+          url: https://jekyllrb.com/
+    -
+      name: "Links With expanded: false"
+      type: link-list
+      links:
+        -
+          name: GitHub
+          icon: github-mark.svg
+          icon-dark: github-mark-white.svg
+          url: https://github.com/
+          description: "This is a link to the GitHub homepage."
+        -
+          name: Jekyll
+          icon: jekyll.svg
+          icon-dark: jekyll-whitebg.svg
+          url: https://jekyllrb.com/
+          description: "This is a link to the Jekyll website."
+    -
+      name: Another Custom Card
+      type: custom
+      include: custom-card-test.html
+      body-class: my-custom-class

@@ -1,0 +1,24 @@
+# Site settings
+title: Jekyll Dashboard Theme Demo Site
+email: contact@tensorworks.com.au
+description: Demo site for the Dashboard theme for Jekyll
+url: "https://tensorworks.github.io"
+baseurl: "/jekyll-theme-dashboard-demo"
+timezone: Australia/Brisbane
+
+# Build settings
+markdown: kramdown
+kramdown:
+  input: GFM
+exclude: [".gitignore", "README.md"]
+sass:
+  style: compressed
+
+# Use the dashboard theme
+theme: jekyll-theme-dashboard
+
+# Configure the light mode and dark mode variants of the site logo
+theme-settings:
+  logo:
+    default: "assets/images/logo.svg"
+    dark: "assets/images/logo-inverted.svg"

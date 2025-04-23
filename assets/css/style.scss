@@ -1,0 +1,7 @@
+---
+---
+@import '{{ site.theme }}';
+
+.my-custom-class p:last-child {
+	margin-bottom: 0;
+}
